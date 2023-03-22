@@ -1,0 +1,23 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<Window
+    x:Class="CustomControl2.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CustomControl2.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+      
+        <local:CustomControl1 x:Name="Control1">
+            <local:CustomControl1.Fields >
+                <TextBlock>hello0</TextBlock>
+                <TextBlock>hello1</TextBlock>
+             
+            </local:CustomControl1.Fields>
+        </local:CustomControl1>
+    </StackPanel>
+</Window>
